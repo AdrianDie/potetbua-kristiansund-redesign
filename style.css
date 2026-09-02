@@ -193,19 +193,8 @@ section .eyebrow{color:var(--rust);opacity:0.85;}
 .dept-address{color:var(--muted);font-size:0.94rem;margin-top:6px;}
 .dept-address a{color:var(--rust);font-weight:700;}
 .dept-address a:hover{text-decoration:underline;}
-.status-pill{
-  display:inline-flex;align-items:center;gap:6px;flex-shrink:0;
-  font-size:0.72rem;font-weight:800;letter-spacing:0.03em;text-transform:uppercase;
-  padding:5px 10px 5px 8px;border-radius:999px;white-space:nowrap;
-}
-.status-pill .dot{width:7px;height:7px;border-radius:50%;}
-.status-pill.is-open{background:#e7f6ea;color:#1c7a34;}
-.status-pill.is-open .dot{background:#2fb350;box-shadow:0 0 0 3px rgba(47,179,80,0.25);}
-.status-pill.is-closed{background:#f4f1f1;color:#8a8a8a;}
-.status-pill.is-closed .dot{background:#b3b3b3;}
 .dept-hours{font-size:0.9rem;color:var(--ink);border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:5px;}
 .dept-hours .hour-row{display:flex;justify-content:space-between;gap:10px;}
-.dept-hours .hour-row.today{font-weight:800;color:var(--rust);}
 .dept-order{display:flex;gap:10px;margin-top:6px;padding-top:6px;flex-wrap:wrap;}
 .order-btn{
   display:flex;align-items:center;gap:8px;padding:11px 16px;border-radius:var(--radius-sm);
